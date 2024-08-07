@@ -1,0 +1,17 @@
+<h1>Estos son los productos creados hasta el momento.</h1>
+
+{{#each arrayOfProducts}}
+    <div>
+        <h3>Producto: {{this.title}}</h3>
+        {{!--<h3>{{this.title}}</h3>--}}
+        <p>Descripcion: {{this.description}}</p>
+        <p>Precio: {{this.price}}</p>
+        <p>Categoria: {{this.category}}</p>
+        {{!--<img src="{{this.thumbnails}}" alt="{{this.description}}">--}}
+        {{!--<button>Eliminar</button> Esto quizá sea mejor ponerlo solo en la parte que tiene WebSockets--}}
+    </div>
+    <br>
+    <br>
+{{/each}}
+
+{{!--title, description, code, price, status = true, category, thumbnails--}}

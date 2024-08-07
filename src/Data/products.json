@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "title": "Ninja Blanco",
+    "description": "Personaje de la serie RAMBO",
+    "code": 113,
+    "price": 750,
+    "status": true,
+    "category": "toys",
+    "thumbnails": "Un path donde estan las imagenes"
+  },
+  {
+    "id": 2,
+    "title": "Destro",
+    "description": "Segundo al mando en las fuerzas del mal. GI Joe",
+    "code": 112,
+    "price": 500,
+    "status": true,
+    "category": "toys",
+    "thumbnails": "Un path donde estan las imagenes"
+  },
+  {
+    "id": 3,
+    "title": "Cobra",
+    "description": "Comandante fuerzas del mal GI-JOE",
+    "code": 111,
+    "price": 1000,
+    "status": true,
+    "category": "toys",
+    "thumbnails": "Un path donde estan las imagenes"
+  }
+]
